@@ -91,7 +91,7 @@ under the License.
     <dependency>
       <groupId>org.eclipse.sisu</groupId>
       <artifactId>org.eclipse.sisu.plexus</artifactId>
-      <version>0.0.0.M2a</version> <!-- like Maven 3.1.0 -->
+      <version>0.3.4</version> <!-- like Maven 3.1.0 -->
     </dependency>
     <dependency>
       <groupId>org.codehaus.plexus</groupId>

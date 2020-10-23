@@ -36,7 +36,7 @@ under the License.
   <inceptionYear>2005</inceptionYear>
 
   <properties>
-    <mavenVersion>3.1.0</mavenVersion> <!-- support javax.inject -->
+    <mavenVersion>3.1.1</mavenVersion> <!-- support javax.inject -->
     <doxia-sitetoolsVersion>1.9.2</doxia-sitetoolsVersion>
   </properties>
 

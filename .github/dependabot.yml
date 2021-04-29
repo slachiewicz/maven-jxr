@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.apache.maven:maven-compat
+    versions:
+    - 3.8.1
+  - dependency-name: org.apache.maven:maven-model
+    versions:
+    - 3.8.1
+  - dependency-name: org.apache.maven:maven-core
+    versions:
+    - 3.8.1
+  - dependency-name: org.apache.maven:maven-artifact
+    versions:
+    - 3.8.1
+  - dependency-name: org.apache.maven:maven-plugin-api
+    versions:
+    - 3.8.1
+  - dependency-name: org.apache.maven.wagon:wagon-provider-api
+    versions:
+    - 3.4.2
+    - 3.4.3
+  - dependency-name: commons-io:commons-io
+    versions:
+    - 2.8.0
+  - dependency-name: org.codehaus.plexus:plexus-java
+    versions:
+    - 1.0.6
+  - dependency-name: org.apache.velocity:velocity-engine-core
+    versions:
+    - "2.2"
